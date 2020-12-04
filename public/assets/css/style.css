@@ -27,6 +27,22 @@ li {
   text-align: center;
 }
 
+.burgers-eaten {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+.burgers-to-devour {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
 #burger-title {
   text-align: center;
   font-size: 100px;

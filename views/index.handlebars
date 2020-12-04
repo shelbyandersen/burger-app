@@ -3,26 +3,29 @@
 </div>
 <h1>Eat Da Burger!</h1>
 
+<div class="burgers-to-devour">
+  <h2>Burgers to Devour</h2>
 
-<h2>Burgers to Devour</h2>
+  <ul>
+    {{#each burgers}}
+    {{#unless devoured}}
+    {{> burgers/burger-block devoured=true}}
+    {{/unless}}
+    {{/each}}
+  </ul>
+</div>
 
-<ul>
-  {{#each burgers}}
-  {{#unless devoured}}
-  {{> burgers/burger-block devoured=true}}
-  {{/unless}}
-  {{/each}}
-</ul>
+<div class="burgers-eaten">
+  <h2>Burgers Eaten</h2>
 
-<h2>Burgers Eaten</h2>
-
-<ul>
-  {{#each burgers}}
-  {{#if devoured}}
-  {{> burgers/burger-block devoured=false}}
-  {{/if}}
-  {{/each}}
-</ul>
+  <ul>
+    {{#each burgers}}
+    {{#if devoured}}
+    {{> burgers/burger-block devoured=false}}
+    {{/if}}
+    {{/each}}
+  </ul>
+</div>
 
 <h2 class="add-burger">Add a Burger</h2>
 <form class="create-form">
