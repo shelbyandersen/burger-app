@@ -5,12 +5,26 @@ body {
 h1 {
   text-align: center;
   font-family: "sifonnbasic_outline", Arial, sans-serif;
+  color: #fee074;
+}
+
+h2 {
+  font-family: "sifonnbasic_outline", Arial, sans-serif;
+  color: #fee074;
+  font-size: 28px;
+  text-transform: uppercase;
 }
 
 li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  margin: 2%;
+  background: #20293e;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  padding-left: 5%;
+  padding: 2%;
 }
 
 .label {
@@ -46,6 +60,22 @@ li {
 
 .clearfix::after {
   clear: both;
+}
+
+.change-devour {
+  background: #00a08f;
+  border: none;
+  padding: 3%;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #burger-title {
