@@ -22,7 +22,7 @@
 
   <ul>
     {{#each burgers}}
-    {{#if devoured}}
+    {{#if isDevoured}}
     {{> burgers/burger-block isDevoured=false}}
     {{/if}}
     {{/each}}

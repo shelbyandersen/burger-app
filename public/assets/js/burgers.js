@@ -5,8 +5,8 @@ $(function() {
     var state = {devour: true};
     // var state = $(this).data("newdevour");
 
-    // var newDevourState = {
-    //   devoured: newDevour
+    // var isDevoured = {
+    //   devour: true
     // };
 
     // Send the PUT request.
@@ -15,7 +15,6 @@ $(function() {
       data: state
     }).then(
       function() {
-        console.log("changed devour to", newDevour);
         // Reload the page to get the updated list
         location.reload();
       }
