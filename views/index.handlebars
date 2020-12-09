@@ -3,6 +3,7 @@
     src="https://lh3.googleusercontent.com/bqWJXFyklpOU7xv3Xfixp-gP73Te_KSOVCoEoHpDkXsXb9F8JujN0MfvamWUKsFZJhIWQvqfkkb1-TiP_ruVe2jIHUnalobfzueTLsPWw0JxEOaQc6jVDLPCAmgMEZd5FQUbTg8rKZbXGrkjZLF6J_K4te73_vPQHVVBV906xVooopLf6w0HdOJ0JCJnvdzjtUMgKMCtqYbQzYEwhRaSCasR_Mg5GrOBuP6Tqd_EEtBqGB1eBDBTmz8NuLcGHw6kN43208jJGT-N_CuKdc7_lQ0M20E85lNktLNhw1J0eSu_lGCGgKsZK5LAgs5zDRAH6CvP6bInTwOtx6vXY3HgCQQAlrIypvjPv6jL8j9cBqnGpRapfWbpAIwZkSfbD3EPlW9tuQxvWWPqKUhLhHVn_oIUoOJYErrUnDG6Irf1diDQTPjSSb4qX2_yXpFXo5OmqA1Pbl-w6wd7o6wZbegqsSkvkC8tyvnZ25JL2OQX-SZKSSuPjFr6u5ZhNL14DT9oj3vAAUE7AEQURt3OusNS3GKehd0NYDmQK3TKuZg9GeiyPEseK8HuPb8fmV2uAbp3env9bKuBt91r18MuDlzb5KGkVzSYrjPuNTq3pyByZb9uBxeB1UNcO3wdQPabzwfGw6hzQdTswM7ne5mrdHb0uOPc-UjxZHMkO4m48sj9g7GsEycDX_WkuEI1XOOU=s125-no?authuser=0"
     width="125" height="125" alt="burger image">
 </div>
+<style></style>
 <h1>Eat Da Burger!</h1>
 
 <div class="burgers-to-devour">
@@ -34,13 +35,13 @@
   <form class="create-form">
 
     <div class="form-group">
-      <label for="ca">Burger Name:</label>
-      <input type="text" id="ca" name="name">
+      <label for="ca" class="burger-name">Burger Name:</label>
+      <input type="text" class="burger-box" id="ca" name="name">
     </div>
 
     <div class="form-group">
-      <label for="isDevoured">Enter a Burger you want to eat!</label><br>
-      <input type="radio" name="isDevoured" value="1" checked> Devour Burger!<br><br>
+      <label for="isDevoured" class="burger-text">Enter a Burger you want to eat!</label><br>
+      {{!-- <input type="radio" name="isDevoured" value="1" checked> Add Burger!<br><br> --}}
       {{!-- <input type="radio" name="devoured" value="0"> Eaten --}}
       <button type="submit" id="add-burger-btn">Add Burger</button>
     </div>

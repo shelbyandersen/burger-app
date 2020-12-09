@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-family: "sifonnbasic_outline", Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #fee074;
   font-size: 28px;
   text-transform: uppercase;
@@ -87,6 +87,26 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.burger-name {
+  text-transform: uppercase;
+  font-size: 26px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.burger-box {
+  margin: 2%;
+  background: #20293e;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  padding: 2%;
+  text-decoration: none;
+  border: none;
 }
 
 #burger-title {
