@@ -7,6 +7,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Sifonn Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Sifonn Pro"),
+    url("../sifonn-basic/SIFONN_PRO.woff") format("woff");
+}
+
 body {
   background: #124653;
 }
@@ -20,9 +28,9 @@ h1 {
 }
 
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Sifonn Pro";
   color: #fee074;
-  font-size: 28px;
+  font-size: 32px;
   text-transform: uppercase;
   margin: 1%;
 }
@@ -30,8 +38,7 @@ h2 {
 li {
   margin: 2%;
   background: #20293e;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Sifonn Pro";
   text-transform: uppercase;
   color: white;
   font-size: 20px;
@@ -63,12 +70,14 @@ li {
   display: inline-block;
   width: 50%;
   float: left;
+  margin-bottom: 2%;
 }
 
 .burgers-to-devour {
   display: inline-block;
   width: 50%;
   float: left;
+  margin-bottom: 2%;
 }
 
 .clearfix::after {
@@ -95,14 +104,14 @@ ul {
   text-transform: uppercase;
   font-size: 26px;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Sifonn Pro";
   font-weight: 600;
 }
 
 .burger-box {
-  margin: 2%;
+  margin: 0% 2% 2% 2%;
   background: #20293e;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Sifonn Pro";
   text-transform: uppercase;
   color: white;
   font-size: 20px;
@@ -115,7 +124,7 @@ ul {
   text-transform: uppercase;
   font-size: 20px;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Sifonn Pro";
   font-weight: 500;
 }
 
